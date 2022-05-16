@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+@apply box-border m-0 p-0
+}
+
+@media (max-width: 1080px) {
+  html{
+    @apply text-sm
+  }
+}
+
+@media (max-width: 720px) {
+  html{
+    @apply text-xs
+  }
+}
+
+body {
+@apply bg-gray-900 text-gray-50
+}
+
+body, input, textarea, select, button {
+  @apply font-normal font-sans outline-none shadow-none
+}
+
+button {
+  @apply cursor-pointer
+}
+
+a {
+  @apply text-inherit no-underline
+}
+
+/* SignIn */
+
+.home-input {
+  @apply bg-gray-900 border-none p-2 rounded-md focus:ring-1 ring-pink-500 
+  first:mb-4 focus:border-pink-500
+}
