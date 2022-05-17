@@ -12,7 +12,7 @@ export function Header() {
       <Logo />
       <Search />
       <NotificationNav />
-      <Profile />
+      <Profile/>
     </header>
   );
 }

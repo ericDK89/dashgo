@@ -1,5 +1,3 @@
-import { RiContactsLine, RiDashboardLine } from "react-icons/ri";
-
 interface NavSectionProps {
   title: string;
   children: React.ReactNode;

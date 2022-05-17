@@ -67,11 +67,11 @@ export default function Dashboard() {
           className="flex-1 grid xl:grid-cols-2 md:grid-cols-1 gap-4 
           min-w-[320px] items-start"
         >
-          <div className="p-8 bg-gray-800 rounded-lg h-72">
+          <div className="p-6 sm:p-8 bg-gray-800 rounded-lg h-72">
             <p className="pb-4">Inscritos da semana</p>
             <Chart options={options} series={series} type="area" height={160} />
           </div>
-          <div className="p-8 bg-gray-800 rounded-lg h-72">
+          <div className="p-6 sm:p-8 bg-gray-800 rounded-lg h-72">
             <p className="pb-4">Taxa de abertura</p>
             <Chart options={options} series={series} type="area" height={160} />
           </div>

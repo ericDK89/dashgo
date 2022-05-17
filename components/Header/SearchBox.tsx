@@ -4,8 +4,8 @@ export function Search() {
   return (
     <>
       <label
-        className="flex flex-auto justify-between items-center py-4 px-8 ml-6 max-w-[400px] self-center 
-        text-gray-200 relative bg-gray-800 rounded-full"
+        className="sm:flex flex-auto justify-between items-center py-4 px-8 ml-6 max-w-[400px] self-center 
+        text-gray-200 relative bg-gray-800 rounded-full hidden"
       >
         <input
           className="px-4 mr-4 text-gray-50 bg-gray-800 
